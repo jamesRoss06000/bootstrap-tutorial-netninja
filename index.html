@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous">
+
+    <title>Bootstrap 4</title>
+  </head>
+  <body>
+    <!-- collapsable navbar at top of page  -->
+    <nav class='" navbar navbar-expand-sm bg-info navbar-dark'>
+      <div class="container">
+        <button class="navbar-toggler" data-toggle='collapse'
+          data-target='#mainNav'>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id='mainNav'>
+          <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">About</a>
+            <a href="#" class="nav-item nav-link">Training</a>
+            <a href="#" class="nav-item nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- JUMBUTRON FULL WIDTH COLORED -->
+    <div class="jumbotron jumbotron-fluid bg-info text-white">
+      <div class="container text-center">
+        <h1>Jumbotron out of container, fluid gives square corners</h1>
+        <p class='lead'>Div made pretty using bootstrap classes</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="jumbotron">jumbotron in container</div>
+    </div>
+
+    <!-- Nav bar is here  -->
+    <h2 class='display-4 text-center mt-3'>Meet the speakers</h2>
+
+    <nav class="nav nav-pills justify-content-center pb-3 flex-column
+      flex-md-row">
+      <a href="#mani" class="nav-link" data-toggle='tab'>Mani Lee Ross</a>
+      <a href='#james' class="nav-link active" data-toggle='tab'>James Ross</a>
+      <a href="#joyner" class="nav-link" data-toggle='tab'>Joyner Lucas</a>
+      <a href="#cole" class="nav-link" data-toggle='tab'>J Cole</a>
+    </nav>
+
+    <!-- Nav targets/links are here -->
+    <div class="tab-content py-3">
+      <div class="tab-pane" id='mani'>
+        <h3 class='text-center' ><span class='text-muted' data-toggle="tooltip" data-placement="top" title="Born in Nice, France, in 2009">Mani</span> Lee Ross</h3>
+        <p class='text-center'>Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Iusto eum magnam commodi sapiente earum. Fugiat
+          cupiditate ea possimus itaque nihil.</p>
+      </div>
+      <div class="tab-pane" id='james'>
+        <h3 class='ml-5'>James Ross</h3>
+        <p class='ml-5'>Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Iusto eum magnam commodi sapiente earum. Fugiat cupiditate ea
+          possimus itaque nihil.</p>
+      </div>
+      <div class="tab-pane" id='joyner'>
+        <h3>Joyner Lucas</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto eum
+          magnam commodi sapiente earum. Fugiat cupiditate ea possimus itaque
+          nihil.</p>
+      </div>
+      <div class="tab-pane" id='cole'>
+        <h3>J Cole</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto eum
+          magnam commodi sapiente earum. Fugiat cupiditate ea possimus itaque
+          nihil.</p>
+      </div>
+    </div>
+
+    <!-- Cards start here -->
+    <div class="container text-muted">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img class='img-fluid' src="img/htmlCssJs.jpg" alt="html">
+            <div class="card-body">
+              <H1 class='card-title'>Front</H1>
+              <p>HTML and CSS</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img class='img-fluid' src="img/phpSql.jpg" alt="php">
+            <div class="card-body">
+              <H1 class='card-title'>Back</H1>
+              <p>PHP and SQL</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img class='img-fluid' src="img/react-Ionic.jpg" alt="react">
+            <div class="card-body">
+              <H1 class='card-title'>Frameworks</H1>
+              <p>React and Ionic</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+      <!-- grid code starts here -->
+      <div class="row">
+        <div class="col-md border">col-md</div>
+        <div class="col-md-6 bg-secondary border">col-md-6</div>
+        <div class="col-md border">col-md</div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">col-md-4</div>
+        <div class="col-md-4 offset-md-4">offset-md-4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-3 border">Hello</div>
+        <div class="col-md-6 col-lg-3 bg-secondary border">Hello</div>
+        <div class="col-md-6 col-lg-3 border">Hello</div>
+        <div class="col-md-6 col-lg-3 bg-secondary border">Hello</div>
+      </div>
+
+      <div class="row bg-secondary">
+        <div class="col border">Hello</div>
+        <div class="col bg-secondary border">Hello</div>
+        <div class="col border">Hello</div>
+        <div class="col bg-secondary border">Hello</div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+    <!-- jquery for tooltip is below -->
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+      </script>
+  </body>
+</html>
